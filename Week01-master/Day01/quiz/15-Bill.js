@@ -8,7 +8,7 @@
  */
 function totalGaji(gaji1, gaji2, gaji3) {
     tax1 = taxGaji(gaji1) 
-    gp1= gaji1+tax1*gaji1
+    gp1= gaji1+tax1*gaji1 //gp tu gaji + pajak
     tax2 = taxGaji(gaji2) 
     gp2= gaji2+tax2*gaji2
     tax3 = taxGaji(gaji3) 
@@ -16,6 +16,7 @@ function totalGaji(gaji1, gaji2, gaji3) {
     total = gp1 + gp2 + gp3
     
     return "\nEmp1 : Rp." + gaji1 +" + Pajak("+(tax1*100)+"%)=Rp." + gp1+ "\nEmp1 : Rp." + gaji2 +" + Pajak("+(tax2*100)+"%)=Rp." + gp2+"\nEmp1 : Rp." + gaji3 +" + Pajak("+(tax3*100)+"%)=Rp." + gp3+"\nTotal : Rp. " + total ;
+
 }
 
 function taxGaji(gaji) {
