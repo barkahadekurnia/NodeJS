@@ -18,10 +18,10 @@ function isPalindrome(angka) {
 
     // const arrayValues = string.split('');
 
-    // // reverse the array values
+    // reverse the array values
     // const reverseArrayValues = arrayValues.reverse();
 
-    // // convert array to string
+    // convert array to string
     // const reverseString = reverseArrayValues.join('');
     
     // strAngka = "" + angka;
