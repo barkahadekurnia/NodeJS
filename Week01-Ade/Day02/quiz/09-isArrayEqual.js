@@ -1,18 +1,18 @@
 function isArraysEqual(arrayA, arrayB) {
-
-    //split array
-    splitA = arrayA.split('');
-    splitB = arrayB.split('');
     //hitung panjang array  -1 buat index
     panjangA = arrayA.length - 1;
     panjangB = arrayB.length - 1;
 
-    for (i = 0; i < panjangA; i++) {  
-        if (panjangA == panjangB) {
-            return true
-        } else {
-            return false
+    if (panjangA == panjangB) {
+        for (i = 0; i < panjangA; i++) {
+            if (arrayA[i] == arrayB[i]) {
+                return true
+            } else {
+                return false
+            }
         }
+    } else {
+        return false + "jumlah array tydack sama"; // ni klo jumlah array beda dah jelas ga equal
     }
 
 

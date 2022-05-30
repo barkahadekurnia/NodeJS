@@ -11,7 +11,7 @@ function maxWordLength(params) {
         kataTerpanjang = arrayPerkata[i] //ambil data kata terpanjang
         } 
     }
-    return "kata terpanjang adalah" + kataTerpanjang;
+    return "kata terpanjang adalah " + kataTerpanjang;
 }
 
 console.log(maxWordLength("aku suka bootcamp sentul city")); //bootcamp

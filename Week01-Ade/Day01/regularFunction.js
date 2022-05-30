@@ -13,3 +13,4 @@ function MyNames(firstName,lastName) {
 }
 console.log(MyNames('Naufal','Firdaus'));
 
+getComputedStyle

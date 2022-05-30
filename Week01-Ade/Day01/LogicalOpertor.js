@@ -9,7 +9,7 @@ console.log(istrue);
 
 istrue = true || false
 console.log(istrue);
-
+toLowe
 isFalse = false || false
 console.log(isFalse);
 

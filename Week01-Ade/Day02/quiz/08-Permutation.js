@@ -5,7 +5,7 @@ const checkPermute = function (stringOne, stringTwo) {
   // (doesnt matter how it's sorted, as long as it's sorted the same way)
 
   if (stringOne.length != stringTwo.length) {
-    return false;
+    return false; //panjang ga sama dah jelas false
   } else {
     split1 = stringOne.split('');
     split2 = stringTwo.split('');
@@ -18,9 +18,6 @@ const checkPermute = function (stringOne, stringTwo) {
       return true;
     }
   }
-
-
-
 };
 
 
