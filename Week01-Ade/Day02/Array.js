@@ -10,7 +10,7 @@ for (let index = 0; index < foods.length; index++) {
     console.log(foods[index]);
 }
 
-foods.push('Seblak') //memasukkan isi array dari yang terdepan
+foods.push('Seblak') //memasukkan isi array dari yang belakang
 console.log(foods);
 foods.pop() //mengeluarkan isi array dari terbelakang
 console.log(foods);

@@ -1,11 +1,12 @@
 function showPrimeNumber(n) {
-    prima = ""
+    prima = [];
     for (let i=1 ; i < n ; i++) {
         if ( isPrime(i) == true ) {  //kalo true masukin ke variabel prima angkanya
             prima = prima + " " + i  //harusnya nyimpen 2 3 5 ... 
         }
     }
-    return prima; 
+    
+    return prima;
 }
 
 function isPrime(n) { //cari bilangan prima
