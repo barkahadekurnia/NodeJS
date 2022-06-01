@@ -1,0 +1,10 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "code academy",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/barkahadekurnia/NodeJS",
+  "author": "Ade <barkahadekurnia@gmail.com>",
+  "license": "MIT"
+}
