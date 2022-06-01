@@ -7,10 +7,7 @@ export default class Product{
         this.category = category
         this.price = price
         this.totalBuy = totalBuy
-        
-        super.price
-        super.totalBuy
-        //super(prodId,prodName, category, price,totalBuy)
+        this.subTotal = price * totalBuy
     }
     
     setPrice(price){  //buat set harga
@@ -26,8 +23,7 @@ export default class Product{
     }
 
     toString(){
-     //  return `${this.firstName} ${this.lastName}, Gaji = Rp. ${this.salary}`
         return `id : ${this.prodId} , Nama : ${this.prodName} , Harga : ${this.price} , Total Pembelian : ${this.totalBuy}`;
     }
-
+    //return `id product : ${this.prodId} nama product : ${this.prodName} harga : ${this.setPrice} total : ${this.setTotalBuy} total harga : ${this}`
 }
