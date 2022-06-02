@@ -10,22 +10,22 @@ console.log(matchingDate); */
 
 function matchingDate(dates, year) {
     let Dates = dates  
-    panjangArray = Dates.length - 1;
-    newMonth = 12  //max bulan 11
-    newDay = 32  //max hari 31
-    for (i = 0; i < panjangArray; i++) { //ini niatnya buat looping cari data baru
-        tanggal = Dates.find(date => date.getFullYear() === year);
-        bulan = tanggal.getMonth() //
+    var panjangArray = Dates.length - 1;
+    var newMonth = 12  //max bulan 11
+    var newDay = 32  //max hari 31
+    for (let i = 0; i < panjangArray; i++) { //ini niatnya buat looping cari data baru
+        var tanggal = Dates.find(date => date.getFullYear() === year);
+        var  bulan = tanggal.getMonth() //
         if (bulan<=newMonth) {
-            newMonth = bulan
-            hari = tanggal.getDate()
+            var newMonth = bulan
+            var hari = tanggal.getDate()
             if (hari<=newDay) {
-                newDay = hari
+                var newDay = hari
             }
         }
     }
 
-    output = new Date(year,newMonth,newDay) //bkin output date
+    var output = new Date(year,newMonth,newDay) //bkin output date
     return output;
 
 }

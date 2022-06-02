@@ -12,8 +12,8 @@ function getDays(month, year) {
         //switch case day
         switch (month) {
             case 1: {
-                month = '1';
-                day = 31;
+                var month = '1';
+                var day = 31;
             }
             break;
         case 2: {

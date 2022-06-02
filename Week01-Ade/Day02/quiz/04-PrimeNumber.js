@@ -1,5 +1,5 @@
 function showPrimeNumber(n) {
-    prima = ''
+    var prima = ''
     for (let i=1 ; i < n ; i++) {
         if ( isPrime(i) == true ) {  //kalo true masukin ke variabel prima angkanya
             prima = prima + " " + i  //harusnya nyimpen 2 3 5 ... 
@@ -10,7 +10,7 @@ function showPrimeNumber(n) {
 }
 
 function isPrime(n) { //cari bilangan prima
-    bagi = 0;
+    let bagi = 0;
     for (let i = 1; i <= n; i++) {
         if (n % 1 == 0) { //cari yg habis di bagi 1 dan bil itu sendiri
             bagi = bagi + 1;

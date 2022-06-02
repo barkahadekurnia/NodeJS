@@ -5,9 +5,9 @@ function isPalindrome(angka) {
     if (isNaN(angka)) {
         return angka + " is not a number";
     }
-    string=String(angka);
+    var string=String(angka);
 
-    reverseString = string.split('').reverse().join('');
+    var reverseString = string.split('').reverse().join('');
 
     if(string == reverseString) {
         return angka + ' is a palindrome';

@@ -12,7 +12,7 @@ function getAreaCircle(r) {
   const pi = 3.14159 
   
     if ( r > 0 ) {
-      luas = pi * r * r
+      let luas = pi * r * r
       return luas;
     } else if (r<=0) {
       return "try higher";

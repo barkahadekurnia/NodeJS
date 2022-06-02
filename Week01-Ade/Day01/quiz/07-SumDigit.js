@@ -9,13 +9,13 @@ if (n>10000) {
     return n + " is not number, try again...";
 }
 else {
-    total = 0
-    for (i=0;i<4;i++) {
+   var  total = 0
+    for (let i=0;i<4;i++) {
         //lastNumber = n - 10 * Math.floor(n / 10)
-        lastNumber = n % 10; //4
+        var lastNumber = n % 10; //4
         total = total + lastNumber  // 0+4
         //biar geser angka ke indeks sebelummny
-        n = (n-lastNumber)/10
+        var n = (n-lastNumber)/10
         
     }
     //return lastNumber;

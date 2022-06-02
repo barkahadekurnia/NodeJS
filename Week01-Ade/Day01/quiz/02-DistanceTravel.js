@@ -12,7 +12,7 @@ function calculateDistance(a, t){
         return "Accelaration or time must be >= 0";
     } 
     else  {
-        S = 1/2*a*t**2
+        let S = 1/2*a*t**2
         //S =  Math.pow(1/2*a*t,2)
         return "Jarak yang ditempuh adalah " + S + " meter/s";
     } 

@@ -6,10 +6,10 @@
 
 function strToDate(s){
    
-    seplit = s.split(''); //s isi 12/30/2021 bikin jd array
+    var  seplit = s.split(''); //s isi 12/30/2021 bikin jd array
     seplit.splice(2,1);  //buang / pertama di index 2   1230/2021  /splice buat buang isi array index ke , brapa yg dibuang
     seplit.splice(4,1);  //buang / kedua
-    sjoin = seplit.join(''); //gabungin jd variabel biasa
+    var sjoin = seplit.join(''); //gabungin jd variabel biasa
     if (isNaN(sjoin)){ //cek angka bukan
        return s + " bad format date";
     } else {

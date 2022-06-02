@@ -8,11 +8,34 @@
 // 4 4 4 4
 // 5 5 5 5 5
 
+for (let a = 1; a <= 5; a++) {
+    let printAngka = ''
+    for (let b = 1; b <= a; b++) {
+        printAngka = printAngka + " " + a
+        // console.log(" "+ b);
+    }
+
+    console.log(printAngka);
+}
+
 // 1
 // 2 1
 // 3 2 1
 // 4 3 2 1
 // 5 4 3 2 1
+
+console.log("\n");
+
+for (let a = 1; a <= 5; a++) {
+    let printAngka2 = ''
+    for (let b = a; b > a-5; b--) {
+        if ( b > 0 ) {
+        printAngka2 = printAngka2 + " " + b
+        }
+     }
+
+    console.log(printAngka2);
+}
 
 // 1
 // 2 3

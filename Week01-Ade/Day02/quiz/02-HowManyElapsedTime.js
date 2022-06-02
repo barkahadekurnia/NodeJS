@@ -18,7 +18,7 @@ function isKabisat(year){
 
         //year = Number(year); //biar pasti jdi nuumber
         let jum = 0 ; //tmp
-        for (i=0;i<year;i++) { // looping dari tahun 0 sampai tahun ke (year)
+        for (let i=0;i<year;i++) { // looping dari tahun 0 sampai tahun ke (year)
             
             if ((0 == i % 4) && (0 != i % 100) || (0 == i % 400)) {
                 //ya = 1;

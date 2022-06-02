@@ -9,7 +9,7 @@ function getCordinat(x1,y1,x2,y2) {
         return "input kordinat dalam angka";
     } else {
     parseInt(x1,y1,x2,y2) ;
-    d = Math.pow(Math.sqrt(x1 - x2),2) + Math.pow((y1 - y2),2)
+    var d = Math.pow(Math.sqrt(x1 - x2),2) + Math.pow((y1 - y2),2)
     // 𝑑 = √(𝑥1 − 𝑥2)^2 + (𝑦1 −𝑦2)^2   
     
     //cek apakah float

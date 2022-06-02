@@ -14,7 +14,7 @@ function getSalesTax(price, tax) {
         return "Pajak harus dalam angka" ;
     }
     else {
-        total = price+tax 
+        const total = price+tax 
         return "Total Sales : Rp." + price + "\nPajak : " + tax/100 + "\nTotalHarga+Pajak : Rp." + total ;
     }
 }

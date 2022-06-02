@@ -1,10 +1,10 @@
 function isArraysEqual(arrayA, arrayB) {
     //hitung panjang array  -1 buat index
-    panjangA = arrayA.length - 1;
-    panjangB = arrayB.length - 1;
+    var panjangA = arrayA.length - 1;
+    var panjangB = arrayB.length - 1;
 
     if (panjangA == panjangB) {
-        for (i = 0; i < panjangA; i++) {
+        for (let i = 0; i < panjangA; i++) {
             if (arrayA[i] == arrayB[i]) {
                 return true
             } else {

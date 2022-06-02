@@ -6,7 +6,7 @@ function convertToRupiah(money, type) {
     //let formatCurrency = new Intl.NumberFormat('ID',{style:'currency',currency:type}).format(money)
 
     if (type == 'yen') {
-        convert = money * 130.12
+        var convert = money * 130.12
         return money + " yen = Rp." + convert;
     } else if (type == 'usd') {
         convert = money * 14382.5

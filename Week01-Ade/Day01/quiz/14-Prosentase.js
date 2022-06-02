@@ -4,7 +4,7 @@ function getProsentase(start,end){
     if (isNaN(start) || isNaN(end)) {
         return start + " or " + end +" harus dalam angka ";
     } else if (start<end){
-        perubahan = (end/start*100)-100;
+        var perubahan = (end/start*100)-100;
         return "Total kenaikan income " + Math.ceil(perubahan) + " %";
     } else {
         perubahan = 100-(end/start*100);

@@ -11,10 +11,10 @@
      }else if(isNaN(tax)){
         return "pajak harus dalam angka"
      }else {
-         discount =price * discount /100;
-         priceafter = price - discount;
-         pajak = priceafter * tax /100;
-         total = priceafter + pajak;
+         var discount = price * discount /100;
+         var priceafter = price - discount;
+         var pajak = priceafter * tax /100;
+         var total = priceafter + pajak;
         return "Total Sales 	: Rp. "+ price + "\nDiscount (5%) 	: Rp."+ discount+ "\nPriceAfterDiscount 	: Rp."+ priceafter +"\nPajak (10%) 	: Rp."+ pajak+ "\n----------------------------------"+"\nTotalPayment 	: Rp."+total;
        }
  }

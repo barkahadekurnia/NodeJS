@@ -1,7 +1,7 @@
 /** buat segitiga  */
 
-for (i = 5; i > 1; i--) {
-   str = ""
+for (let i = 5; i > 1; i--) {
+   let str = ""
     for (let j = 1; j < i; j++) {
         str = str + " " + j
     }
@@ -15,8 +15,8 @@ for (i = 5; i > 1; i--) {
 // 1 
 
 
-for (i = 5; i > 0; i--) {
-     str2 = ""
+for (let i = 5; i > 0; i--) {
+     let str2 = ""
      for (let j = i; j >= 1; j--) {
          str2 = str2 + " " + j
      }

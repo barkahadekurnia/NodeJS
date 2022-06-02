@@ -9,7 +9,7 @@ function fareinheitToKelvin(fareinheit){
     if ( isNaN(fareinheit)) {
         return "Fareinheit must an number";
     } else {
-    Kelvin = (fareinheit + 459.67)/1.8
+    let Kelvin = (fareinheit + 459.67)/1.8
     Kelvin = Math.round(Kelvin);
 
     return Kelvin;

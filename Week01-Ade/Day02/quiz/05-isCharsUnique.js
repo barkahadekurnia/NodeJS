@@ -1,10 +1,10 @@
 function isCharsUnique(string) {
-    split = string.split('')
-    panjangSplit = split.length - 1
-    for (i = 0; i < panjangSplit; i++) { //7  jadi looping mulai index 0
-        for (j = 1; j < panjangSplit; j++) {
+    var split = string.split('')
+    var panjangSplit = split.length - 1
+    for (let i = 0; i < panjangSplit; i++) { //7  jadi looping mulai index 0
+        for (let j = 1; j < panjangSplit; j++) {
             if (split[i] == split[j]) { // bandingkan apakah split index ke i = j 
-                cek = false;
+                var cek = false;
             } else {
                 cek = true;
             }
