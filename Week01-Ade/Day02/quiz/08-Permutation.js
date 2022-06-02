@@ -16,6 +16,8 @@ const checkPermute = function (stringOne, stringTwo) {
 
     if (join1 == join2) {
       return true;
+    } else {
+      return false;
     }
   }
 };

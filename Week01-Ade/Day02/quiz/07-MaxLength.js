@@ -2,7 +2,7 @@ function maxWordLength(params) {
     var  arrayPerkata = params.split(" "); //pisah dlu perkata
 
     var  more = 0 // tmp
-    var   jumlahArray = arrayPerkata.length - 1  //index
+    var   jumlahArray = arrayPerkata.length  //index
     for (let i = 0; i<jumlahArray; i++ ) {  //mau dapetin nilai panjang maksimal
         var panjang = arrayPerkata[i].length   //hitung panjang kata per isi array  
         if (more < panjang) {
