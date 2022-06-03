@@ -49,10 +49,10 @@ console.log("\n ========= C ========= \n");
 //bikin output dengan \n setiap i+1
 
 var angka = [1]
-let c =1
+let c = 1
 while (c < 5) {
-    var last = angka.length -1
-    var x = angka[last] 
+    var last = angka.length - 1
+    var x = angka[last]
     if (x == 1) {
         for (let k = 2; k <= 5; k++) {
             angka.push(k);
@@ -63,8 +63,8 @@ while (c < 5) {
         for (let j = 4; j >= 1; j--) {
             angka.push(j);
         }
-    } 
-    c=c+1
+    }
+    c = c + 1
 }
 
 console.log(angka);
@@ -72,8 +72,8 @@ console.log(angka);
 for (let a = 0; a <= 4; a++) {
     let printAngka = ''
     for (let b = 0; b <= a; b++) {
-        printAngka = printAngka + " " + angka[(b+a)]
-    //    console.log(angka[(b+a)]);
+        printAngka = printAngka + " " + angka[(b + a)]
+        //    console.log(angka[(b+a)]);
         // console.log(" "+ b);
     }
     console.log(printAngka);
@@ -93,6 +93,28 @@ for (let a = 1; a <= n * 5; a++) {
 }
 console.log(Angka);
 
+var wadah = [5,5]
+let xx = 1;
+for (let i = 0; i < 5; i++) {
+    if (i % 2 == 0) {
+        for (let j = 0; j < 5; j++) {
+           // wadah.push(wadah[j,i])
+           wadah[j,i]=xx
+        }
+    } else {
+        for (let j = 4; j >= 0; j--) {
+          //  wadah.push(wadah[j,i])
+            wadah[j,i]=xx
+        }
+    }
+}
+
+for (let a = 0; a < 5; a++) {
+    for (let b = 0; b < 5; b++) {
+        console.log(`${wadah[a,b]} `);
+    }
+    console.log("\n");
+}
 // for (let b = 8; b > 1; b+=2) {
 
 //     console.log(Angka[b]);
