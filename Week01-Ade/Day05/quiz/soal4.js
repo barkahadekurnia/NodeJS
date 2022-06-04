@@ -93,28 +93,29 @@ for (let a = 1; a <= n * 5; a++) {
 }
 console.log(Angka);
 
-var wadah = [5,5]
-let xx = 1;
-for (let i = 0; i < 5; i++) {
-    if (i % 2 == 0) {
-        for (let j = 0; j < 5; j++) {
-           // wadah.push(wadah[j,i])
-           wadah[j,i]=xx
-        }
-    } else {
-        for (let j = 4; j >= 0; j--) {
-          //  wadah.push(wadah[j,i])
-            wadah[j,i]=xx
-        }
-    }
-}
+// var wadah = [5,5]
+// let xx = 1;
+// for (let i = 0; i < 5; i++) {
+//     if (i % 2 == 0) {
+//         for (let j = 0; j < 5; j++) {
+//            // wadah.push(wadah[j,i])
+//            wadah[j,i]=xx
+//         }
+//     } else {
+//         for (let j = 4; j >= 0; j--) {
+//           //  wadah.push(wadah[j,i])
+//             wadah[j,i]=xx
+//         }
+//     }
+// }
 
-for (let a = 0; a < 5; a++) {
-    for (let b = 0; b < 5; b++) {
-        console.log(`${wadah[a,b]} `);
-    }
-    console.log("\n");
-}
+// for (let a = 0; a < 5; a++) {
+//     for (let b = 0; b < 5; b++) {
+//         console.log(`${wadah[a,b]} `);
+//     }
+//     console.log("\n");
+// }
+
 // for (let b = 8; b > 1; b+=2) {
 
 //     console.log(Angka[b]);
