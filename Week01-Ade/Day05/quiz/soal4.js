@@ -48,35 +48,61 @@ console.log("\n ========= C ========= \n");
 //bikin looping 1-5 dlu .. simpen di array
 //bikin output dengan \n setiap i+1
 
-var angka = [1]
-let c = 1
-while (c < 5) {
-    var last = angka.length - 1
-    var x = angka[last]
-    if (x == 1) {
-        for (let k = 2; k <= 5; k++) {
-            angka.push(k);
-        }
-    }
+// var angka = [1]
+// let c = 1
+// while (c < 5) {
+//     var last = angka.length - 1
+//     var x = angka[last]
+//     if (x == 1) {
+//         for (let k = 2; k <= 5; k++) {
+//             angka.push(k);
+//         }
+//     }
 
-    if (x == 5) {
-        for (let j = 4; j >= 1; j--) {
-            angka.push(j);
-        }
-    }
-    c = c + 1
-}
+//     if (x == 5) {
+//         for (let j = 4; j >= 1; j--) {
+//             angka.push(j);
+//         }
+//     }
+//     c = c + 1
+// }
 
-console.log(angka);
+// console.log(angka);
 
-for (let a = 0; a <= 4; a++) {
+// for (let a = 0; a <= 4; a++) {
+//     let printAngka = ''
+//     for (let b = 0; b <= a; b++) {
+//         printAngka = printAngka + " " + angka[(b + a)]
+//         //    console.log(angka[(b+a)]);
+//         // console.log(" "+ b);
+//     }
+//     console.log(printAngka);
+// }
+
+//cara 2
+let x;
+let y;
+let o = 1;
+let p = 0;
+for (x = 0; x < 5; x++) {
     let printAngka = ''
-    for (let b = 0; b <= a; b++) {
-        printAngka = printAngka + " " + angka[(b + a)]
-        //    console.log(angka[(b+a)]);
-        // console.log(" "+ b);
+    let print = ''
+    for (y = 0; y <= x; y++) {
+        //console.log(o)  ;
+        if (o > p && o != 5 || o == 1) {
+            printAngka = o
+            p = o;
+            o++;
+        } else {
+            printAngka = o
+            p = o;
+            o--;
+        }
+        print = print + " " + printAngka;
+        printAngka = ''
+        //print=''
     }
-    console.log(printAngka);
+    console.log(print);
 }
 
 console.log("\n ========= D ========= \n");
